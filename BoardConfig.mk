@@ -37,6 +37,9 @@ BOARD_RAMDISK_OFFSET     := 0x02200000
 
 TARGET_KERNEL_CONFIG := lineage_x2_defconfig
 
+# D2TW
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
