@@ -37,7 +37,7 @@
         <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="8" />
     </acdb_ids>
     <native_configs>
-        <feature name="NATIVE_AUDIO_44.1" codec_support="1"/>
+        <feature name="NATIVE_AUDIO_44.1" codec_support="true"/>
     </native_configs>
     <bit_width_configs>
         <device name="SND_DEVICE_OUT_SPEAKER" bit_width="24"/>
@@ -54,5 +54,6 @@
     <backend_names>
         <device name="SND_DEVICE_OUT_SPEAKER" backend="smartpa" />
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smartpa" />
+        <device name="SND_DEVICE_OUT_HEADPHONES_44_1" backend="headphones-44.1" interface="SLIMBUS_5_RX" />
     </backend_names>
 </audio_platform_info>

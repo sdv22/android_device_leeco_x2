@@ -110,9 +110,6 @@ on boot
 
     setprop config.disable_vr false
 
-     # wake_gesture
-    chown system system /sys/devices/soc/75ba000.i2c/i2c-12/12-004b/input/input3/wake_gesture
-
 on post-fs
     #change permissions for /dev/ssr_monitor_dev
     chown system system /proc/ssr_monitor_dev
