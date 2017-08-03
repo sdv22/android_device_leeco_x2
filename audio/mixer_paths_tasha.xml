@@ -617,7 +617,7 @@
     <path name="deep-buffer-playback headphones">
         <path name="deep-buffer-playback" />
     </path>
-
+<!--
     <path name="low-latency-playback">
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
     </path>
@@ -633,7 +633,7 @@
     <path name="low-latency-playback speaker-protected">
         <path name="low-latency-playback" />
     </path>
-
+-->
     <path name="low-latency-playback hdmi">
         <ctl name="HDMI Mixer MultiMedia5" value="1" />
     </path>
