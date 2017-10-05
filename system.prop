@@ -22,13 +22,13 @@ persist.qfp.touch_enabled=1
 
 persist.qfp.ssc_thresh_s1=0.570
 persist.qfp.ssc_thresh_s1_off=0.0
-persist.qfp.ssc_thresh_s1_rub=1500
+persist.qfp.ssc_thresh_s1_rub=0.0
 persist.qfp.ssc_thresh_s2=0.430
-persist.qfp.ssc_thresh_s2_off=4.0
-persist.qfp.ssc_thresh_s2_touch=0.430
-persist.qfp.ssc_thresh_s2_lift=0.410
+persist.qfp.ssc_thresh_s2_off=0.0
+persist.qfp.ssc_thresh_s2_touch=0.350
+persist.qfp.ssc_thresh_s2_lift=0.350
 
-persist.qfp.filter_movefinger=1000
+persist.qfp.filter_movefinger=0
 persist.qfp.filter_holdfinger=50000
 persist.qfp.filter_insuffcov=6000
 persist.qfp.filter_liftfinger=0
@@ -48,14 +48,4 @@ persist.loc.nlp_name=com.qualcomm.location
 # Screen Density
 ro.sf.lcd_density=560
 
-# Build.prop tweaks
-setprop media.stagefright.enable-player true
-setprop media.stagefright.enable-scan true
-setprop media.stagefright.enable-http true
-setprop media.stagefright.enable-record false
-setprop media.stagefright.enable-aac true
-setprop media.stagefright.enable-qcp true
-setprop persist.camera.capture.animate 1
-setprop persist.camera.tintless disable
-setprop persist.camera.qcom.misc 1
-setprop persist.hwc.dynamicfps 60
+
